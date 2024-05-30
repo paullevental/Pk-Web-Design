@@ -1,16 +1,44 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --purple: #2b2d42;
+  --lightgray: #8d99ae;
+  --whitegray: #edf2f4;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* Overriding bootstrap colors */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav-container {
+  max-width: 84%; 
+  width: 100%;
+  margin: auto;
+}
+
+.nav {
+  --bs-nav-link-color: var(--whitegray);
+  --bs-nav-link-hover-color: var(--whitegray);
+} 
+
+body {
+  background-color: var(--purple);
+}
+
+.nav-link{
+  color: var(--whitegray);
+  font-family: "Poppins", sans-serif;
+  margin: 10px 15px 10px 20px;
+  font-size: 1.1em;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid var(--whitegray);
+  color: var(--whitegray);
+}
+
+.nav-link:hover::after{
+  color: var(--whitegray);
+}
+
+.nav-link:active {
+  color: var(--whitegray);
 }
 
 
