@@ -1,8 +1,10 @@
+import Logo from "./Logo";
+
 function NavBar() {
     return (
         <div className="nav-container">
-            <div className="nav-inner-container">
                 <ul className="nav nav-underline">
+                <li> <Logo /> </li>
                     <li className="nav-item">
                         <a className="nav-link" aria-current="page" href="#">Home</a>
                     </li>
@@ -15,8 +17,8 @@ function NavBar() {
                     <li className="nav-item">
                         <a className="nav-link" href="#">Contact Us</a>
                     </li>
+                    
                 </ul>
-            </div>
         </div>
     );
 }

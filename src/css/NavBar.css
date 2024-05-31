@@ -3,15 +3,21 @@
 .nav {
   --bs-nav-link-color: var(--whitegray);
   --bs-nav-link-hover-color: var(--whitegray);
+  align-items: center;
 }
+
 
 /* */
 
 .nav-container {
-  max-width: 84%;
-  width: 100%;
-  margin: auto;
-  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.nav #logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 75px;
 }
 
 .nav-link {
@@ -35,7 +41,3 @@
   color: var(--whitegray);
 }
 
-.nav-inner-container {
-  display: flex;
-  justify-content: center;
-}

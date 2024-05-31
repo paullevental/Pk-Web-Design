@@ -9,7 +9,7 @@ function Footer() {
                     <li className="nav--footer"><a href="#" className="nav-footer px-2">FAQs</a></li>
                     <li className="nav--footer"><a href="#" className="nav-footer px-2">About</a></li>
                 </ul>
-                <p className="text-center">&copy; 2024 Company | Pk Web Design</p>
+                <p className="text-center">&copy; 2024 Company | pk Web Design</p>
             </footer>
         </div>
     );
