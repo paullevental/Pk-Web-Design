@@ -1,0 +1,36 @@
+.footer-container {
+    max-width: 97%;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin: auto;
+}
+
+.nav-footer {
+    color: var(--whitegray);
+    text-decoration: none;
+}
+
+.nav--footer {
+    padding: 0px 20px 0px 20px;
+    font-size: 1.1em;
+    font-family: var(--Poppins);
+}
+
+.text-center {
+    color: var(--whitegray);
+    font-family: var(--Poppins);
+
+}
+
+
+/* Override Bootstrap padding and margin CSS */
+
+.pb-3 {
+    padding-bottom: 2.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 2.5rem !important;
+}
+
+/*      */

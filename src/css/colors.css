@@ -1,0 +1,15 @@
+:root {
+    --purple: #2b2d42;
+    --lightgray: #8d99ae;
+    --whitegray: #edf2f4;
+    --navyblue: #3a506b;
+    --navy: #1c2541;
+    --darknavy: #0b132b;
+    --darkblue: #0a1128;
+    --gray: #2a2d34;
+    --lightblue: #62b6cb;
+  
+    /* Fonts */
+    --Poppins: "Poppins", sans-serif;
+  }
+  

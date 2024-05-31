@@ -1,39 +1,33 @@
-:root {
-  --purple: #2b2d42;
-  --lightgray: #8d99ae;
-  --whitegray: #edf2f4;
-}
-
 /* Overriding bootstrap colors */
-
-.nav-container {
-  max-width: 84%; 
-  width: 100%;
-  margin: auto;
-}
 
 .nav {
   --bs-nav-link-color: var(--whitegray);
   --bs-nav-link-hover-color: var(--whitegray);
-} 
-
-body {
-  background-color: var(--purple);
 }
 
-.nav-link{
+/* */
+
+.nav-container {
+  max-width: 84%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.nav-link {
   color: var(--whitegray);
-  font-family: "Poppins", sans-serif;
-  margin: 10px 15px 10px 20px;
+  font-family: var(--Poppins);
+  margin: 15px 15px 10px 20px;
   font-size: 1.1em;
 }
 
 .nav-link:hover {
   border-bottom: 2px solid var(--whitegray);
   color: var(--whitegray);
+  transition: 0.3s;
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
   color: var(--whitegray);
 }
 
@@ -41,4 +35,7 @@ body {
   color: var(--whitegray);
 }
 
-
+.nav-inner-container {
+  display: flex;
+  justify-content: center;
+}
