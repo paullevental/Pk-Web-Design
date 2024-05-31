@@ -31,10 +31,10 @@ const NavBar: React.FC = () => {
                 <div className="bar2"></div>
                 <div className="bar3"></div>
                 <ul className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li className="mobile-navbar-item"><a className="nav-link" href="">Home</a></li>
+                    <li className="mobile-navbar-item"><a className="nav-link" href="">About</a></li>
+                    <li className="mobile-navbar-item"><a className="nav-link" href="">Work</a></li>
+                    <li className="mobile-navbar-item"><a className="nav-link" href="">Contact Us</a></li>
                 </ul>
             </div>
         </div>

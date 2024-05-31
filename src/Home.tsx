@@ -16,7 +16,6 @@ function Home() {
                     <div className="home-right">
                         <img src="src\assets\homePageImg.png" alt="" id="home-page-img" />
                     </div>
-
                 </div>
             </div>
             <main className="home-main">
