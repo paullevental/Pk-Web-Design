@@ -34,13 +34,14 @@ body {
 
 .home-main {
     width: 100%;
-    max-width: 100%;
+    max-width: 93%;
     height: 600px;
     background-color: #5D76A9;
     color: var(--whitegray);
     padding: 25px;
-    text-align: center;
-    height: 100%; 
+    text-align: center; 
+    border-radius: 10px;
+    margin: auto;
 }
 
 .inner-home-container {

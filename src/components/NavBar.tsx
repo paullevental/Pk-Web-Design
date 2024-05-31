@@ -2,10 +2,10 @@ import Logo from "./Logo";
 import React, { useState } from 'react';
 
 
-const NavBar: React.FC = () => {
+function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMobileMenu = () => {
+    function toggleMobileMenu(){
         setIsOpen(!isOpen);
     };
 
@@ -40,7 +40,6 @@ const NavBar: React.FC = () => {
         </div>
     );
 };
-
 
 
 export default NavBar;

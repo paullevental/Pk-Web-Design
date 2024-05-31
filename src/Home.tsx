@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
             <main className="home-main">
-                <h1>Hello</h1>
+                <h1 className="web-title-explanation">How it works</h1>
             </main>
             <Footer />
         </>
