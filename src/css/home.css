@@ -1,12 +1,23 @@
 body {
-    background-color: var(--gray);
+    background-color: #3D5D95;
+    padding: 0;
+    margin: 0;
 }
+
+
+html {
+    height: 100vh;
+    min-height: 100%;
+}
+
 
 .home-container {
     max-width: 60%;
     width: 100%;
     margin: auto;
-    padding: 9rem 2rem 12rem 2rem;
+    padding: 9rem 2rem 0rem 2rem;
+    position: relative;
+    height: 100vh; 
 }
 
 .web-title {
@@ -37,5 +48,10 @@ body {
     background-color: #373B44;
     color: var(--whitegray);
     padding: 25px;
-    text-align: center; 
+    text-align: center;
+    height: 100%; 
+}
+
+:root {
+    height: 100%;
 }
