@@ -8,9 +8,15 @@ function Home() {
             <NavBar />
             <div className="home-container">
                 <div className="inner-home-container">
-                    <h1 className="web-title">Designed for You</h1>
-                    <span className="blur-effect"></span>
-                    <h2 className="web-title-explanation">Professional Website, Half the Cost.</h2>
+                    <div className="home-left">
+                        <h1 className="web-title">Designed for You</h1>
+                        <span className="blur-effect"></span>
+                        <h2 className="web-title-explanation">Professional Website, Half the Cost.</h2>
+                    </div>
+                    <div className="home-right">
+                        <img src="src\assets\homePageImg.png" alt="" id="home-page-img" />
+                    </div>
+
                 </div>
             </div>
             <main className="home-main">

@@ -6,7 +6,6 @@
   align-items: center;
 }
 
-
 /* */
 
 .nav-container {
@@ -22,7 +21,7 @@
 
 .nav-link {
   color: var(--whitegray);
-  font-family:"KulimPark-Semibold";
+  font-family: "KulimPark-Semibold";
   margin: 15px 15px 10px 20px;
   font-size: 1.2em;
 }
@@ -41,3 +40,65 @@
   color: var(--whitegray);
 }
 
+#mobile-navbar {
+  margin-top: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+#mobile-navbar div {
+  width: 35px;
+  height: 3px;
+  background-color: var(--whitegray);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -7.5px);
+  transform: rotate(45deg) translate(-6px, -7.5px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+@media only screen and (max-width: 630px) {
+  .nav-container .nav {
+    display: none;
+  }
+
+  #mobile-navbar {
+    display: block;
+  }
+
+  .nav-container {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    width: 100%;
+  }
+
+
+}
