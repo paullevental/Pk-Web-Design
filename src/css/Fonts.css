@@ -1,0 +1,20 @@
+:root {
+    /* Fonts */
+    --Poppins: "Poppins", sans-serif;
+    --BigJohn: "Big John", sans-serif;
+}
+
+@font-face {
+    font-family: "KulimPark-Regular";
+    src: url(/src/assets/fonts/KulimPark-Regular.ttf);
+}
+
+@font-face {
+    font-family: "KulimPark-Bold";
+    src: url(/src/assets/fonts/KulimPark-Bold.ttf);
+}
+
+@font-face {
+    font-family: "KulimPark-SemiBold";
+    src: url(/src/assets/fonts/KulimPark-SemiBold.ttf);
+}

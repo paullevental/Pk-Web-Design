@@ -6,7 +6,7 @@ import './css/NavBar.css'
 import './css/Footer.css'
 import './css/home.css'
 import './css/colors.css'
-
+import './css/Fonts.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

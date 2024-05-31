@@ -22,9 +22,9 @@
 
 .nav-link {
   color: var(--whitegray);
-  font-family: var(--Poppins);
+  font-family:"KulimPark-Semibold";
   margin: 15px 15px 10px 20px;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .nav-link:hover {
