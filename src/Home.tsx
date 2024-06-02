@@ -19,7 +19,15 @@ function Home() {
                 </div>
             </div>
             <main className="home-main">
-                <h1 className="web-title-explanation">How it works</h1>
+                <h1 className="web-title-explanation"></h1>
+                <div className="inner-home-main">
+                    <div className="inner-home-main-left">
+                        <img src="src\assets\Static website-pana.png" alt="" id="website-img" />
+                    </div>
+                    <div className="inner-home-main-right">
+                        <p>We craft unique, user-friendly websites tailored to your business needs</p>
+                    </div>
+                </div>
             </main>
             <Footer />
         </>
