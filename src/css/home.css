@@ -35,7 +35,6 @@ body {
 .home-main {
     width: 100%;
     max-width: 93%;
-    height: 600px;
     background-color: #5D76A9;
     color: var(--whitegray);
     padding: 25px;
@@ -61,8 +60,8 @@ body {
 }
 
 .inner-home-main-right {
-    display: flex;
-    align-items:
+    font-family: 'KulimPark-SemiBold';
+    text-align: right;
 }
 
 .inner-home-main-left {
@@ -71,8 +70,14 @@ body {
 }
 
 .inner-home-main p {
-    font-size: 1.5rem;
-    font-family:
+    font-size: 1.2rem;
+    font-family: 'KulimPark-Regular';
+    margin: 0;
+}
+
+.inner-home-main-right h2 {
+    font-size: 2.1rem;
+    margin-bottom: 35px;
 }
 
 

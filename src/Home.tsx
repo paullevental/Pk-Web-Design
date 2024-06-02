@@ -25,7 +25,23 @@ function Home() {
                         <img src="src\assets\Static website-pana.png" alt="" id="website-img" />
                     </div>
                     <div className="inner-home-main-right">
-                        <p>We craft unique, user-friendly websites tailored to your business needs</p>
+                        <h2>Custom website Design and Search Engine Optimization</h2>
+                        <p>
+                            Welcome to our web development service, where we specialize
+                            in empowering small businesses with stunning, custom-built websites.
+                            In today's digital age, having a strong online presence is crucial for
+                            growth and success. However, many small businesses struggle to
+                            establish a professional, effective website due to limited resources
+                            and technical expertise. That's where we come in.
+                            At our core, we believe in affordable pricing, high-quality work, 
+                            and exceptional customer service. We take pride in our ability to 
+                            deliver tailored solutions that not only meet but exceed your 
+                            expectations. Whether you’re a startup looking to make your mark or 
+                            an established business aiming to expand your online presence, our 
+                            team is here to help you succeed. Contact us today for a free quote 
+                            and take the first step toward transforming your business with a 
+                            professional website.
+                        </p>
                     </div>
                 </div>
             </main>
