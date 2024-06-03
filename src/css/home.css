@@ -72,7 +72,8 @@ body {
 .inner-home-main p {
     font-size: 1.2rem;
     font-family: 'KulimPark-Regular';
-    margin: 0;
+    max-width: 90%;
+    margin-left: auto;
 }
 
 .inner-home-main-right h2 {
@@ -85,6 +86,8 @@ body {
     width: 450px;
     height: 450px;
 }
+
+/* Responsive Media CSS */
 
 @media screen and (max-width: 1300px) {
     .inner-home-container {
@@ -102,15 +105,42 @@ body {
 }
 
 
-/* Responsive Media CSS */
-
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
     .home-container {
         max-width: 100%;
         width: 100%;
         margin: auto;
         padding: 4rem 0rem 3rem 0rem;
+    }
+
+    .inner-home-main {
+        display: inline;
+    }
+
+    .inner-home-main-left,
+    .inner-home-main-right {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inner-home-main p {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .inner-home-main-right p {
+        font-size: 1rem;
+    }
+
+
+    #website-img {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -137,6 +167,7 @@ body {
     .home-container {
         padding-top: 0rem;
         padding-bottom: 0rem;
+        height: 70vh;
     }
 
     .web-title {
@@ -148,8 +179,11 @@ body {
     }
 
     #home-page-img {
-        width: 175px;
-        height: 175px;
+        width: 200px;
+        height: 200px;
     }
 
+    .home-main {
+        padding-top: 0;
+    }
 }
