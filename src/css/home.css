@@ -37,7 +37,7 @@ body {
     max-width: 93%;
     background-color: #5D76A9;
     color: var(--whitegray);
-    padding: 25px;
+    padding: 35px;
     text-align: center;
     border-radius: 10px;
     margin: auto;
@@ -73,7 +73,7 @@ body {
     font-size: 1.2rem;
     font-family: 'KulimPark-Regular';
     max-width: 90%;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 .inner-home-main-right h2 {
@@ -81,6 +81,13 @@ body {
     margin-bottom: 35px;
 }
 
+.nested-inner-home-main-left {
+    text-align: left;
+}
+
+.nested-inner-home-main-left h2 {
+    margin-bottom: 20px;
+}
 
 #website-img {
     width: 450px;
@@ -139,8 +146,8 @@ body {
 
 
     #website-img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
 }
 
