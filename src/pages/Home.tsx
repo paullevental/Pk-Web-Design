@@ -1,11 +1,10 @@
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Logo from "./components/Logo";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
 
 function Home() {
     return (
         <>
-            <NavBar />
             <div className="home-container">
                 <div className="inner-home-container">
                     <div className="home-left">
@@ -47,7 +46,6 @@ function Home() {
                     </div>
                 </div>
             </main>
-            <Footer />
         </>
     );
 }

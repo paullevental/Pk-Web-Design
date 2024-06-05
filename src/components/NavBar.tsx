@@ -1,11 +1,13 @@
 import Logo from "./Logo";
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Link } from "react-router-dom";
 
+//<a className="nav-link" href="#">Contact Us</a>
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
-    function toggleMobileMenu(){
+    function toggleMobileMenu() {
         setIsOpen(!isOpen);
     };
 
@@ -14,16 +16,17 @@ function NavBar() {
             <ul className="nav nav-underline">
                 <li> <Logo /> </li>
                 <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#">Home</a>
+                    <Link to="/" className="nav-link"> Home </Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
+                    <Link to="/About" className="nav-link"> About </Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Pricing</a>
+                    <Link to="/Pricing" className="nav-link"> Pricing </Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Contact Us</a>
+                    <Link to="/Contact" className="nav-link"> Contact Us </Link>
+                     
                 </li>
             </ul>
             <div id="mobile-navbar" className={isOpen ? 'open' : ''} onClick={toggleMobileMenu}>
