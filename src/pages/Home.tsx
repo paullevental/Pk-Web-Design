@@ -1,6 +1,3 @@
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
-import Logo from "../components/Logo";
 
 function Home() {
     return (
@@ -22,8 +19,8 @@ function Home() {
                 <div className="inner-home-main">
                     <div className="inner-home-main-left">
                         <div className="nested-inner-home-main-left">
-                            <h2>Custom website Design and Search Engine Optimization</h2>
-                            <p>
+                            <h2 className="reveal-type">Custom website Design and Search Engine Optimization</h2>
+                            <p className="reveal-type">
                                 Welcome to our web development service, where we specialize
                                 in empowering small businesses with stunning, custom-built websites.
                                 In today's digital age, having a strong online presence is crucial for

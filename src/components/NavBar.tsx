@@ -26,7 +26,6 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <Link to="/Contact" className="nav-link"> Contact Us </Link>
-                     
                 </li>
             </ul>
             <div id="mobile-navbar" className={isOpen ? 'open' : ''} onClick={toggleMobileMenu}>
@@ -34,10 +33,18 @@ function NavBar() {
                 <div className="bar2"></div>
                 <div className="bar3"></div>
                 <ul className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                    <li className="mobile-navbar-item"><a className="nav-link" href="">Home</a></li>
-                    <li className="mobile-navbar-item"><a className="nav-link" href="">About</a></li>
-                    <li className="mobile-navbar-item"><a className="nav-link" href="">Work</a></li>
-                    <li className="mobile-navbar-item"><a className="nav-link" href="">Contact Us</a></li>
+                    <li className="mobile-navbar-item">
+                        <Link to="/" className="nav-link"> Home </Link>
+                    </li>
+                    <li className="mobile-navbar-item">
+                        <Link to="/About" className="nav-link"> About </Link>
+                    </li>
+                    <li className="mobile-navbar-item">
+                        <Link to="/Pricing" className="nav-link"> Pricing </Link>
+                    </li>
+                    <li className="mobile-navbar-item">
+                        <Link to="/Contact" className="nav-link"> Contact Us </Link>
+                    </li>
                 </ul>
             </div>
         </div>
