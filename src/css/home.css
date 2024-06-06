@@ -1,8 +1,8 @@
 body {
-    background-color: #3D5D95;
+    /* background-color: #3D5D95; */
+    background: var(--navyblue);
     padding: 0;
     margin: 0;
-    transition: opacity 300ms ease-in;
 }
 
 @keyframes fade {
@@ -15,12 +15,6 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.reveal-type {
-    animation: fade ease-in-out both;
-    animation-timeline: view();
-    animation-range: entry 10% cover 60%;
 }
 
 .home-container {
@@ -44,7 +38,7 @@ body {
 }
 
 .blur-effect {
-    box-shadow: 0 0 200px 61px #66ccff;
+    box-shadow: 0 0 145px 70px #66ccff;
     position: absolute;
     z-index: -100;
     margin-bottom: 100px;
@@ -53,12 +47,10 @@ body {
 
 .home-main {
     width: 100%;
-    max-width: 93%;
-    background-color: #5D76A9;
+    background-color: rgb(69, 105, 146);
     color: var(--whitegray);
     padding: 35px;
     text-align: center;
-    border-radius: 10px;
     margin: auto;
 }
 
@@ -76,6 +68,9 @@ body {
 .inner-home-main {
     display: flex;
     justify-content: center;
+    animation: fade ease-in-out both;
+    animation-timeline: view();
+    animation-range: 0% 42%;
 }
 
 .inner-home-main-right {
@@ -105,7 +100,12 @@ body {
 }
 
 .nested-inner-home-main-left h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-family: 'KulimPark-Bold';
+}
+
+.nested-inner-home-main-left p {
+    font-family: 'KulimPark-Regular';
 }
 
 #website-img {

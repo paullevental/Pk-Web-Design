@@ -1,3 +1,6 @@
+import Footer from "../components/Footer";
+
+
 
 function Home() {
     return (
@@ -19,22 +22,23 @@ function Home() {
                 <div className="inner-home-main">
                     <div className="inner-home-main-left">
                         <div className="nested-inner-home-main-left">
-                            <h2 className="reveal-type">Custom website Design and Search Engine Optimization</h2>
-                            <p className="reveal-type">
+                            <h2>Custom website design and Search Engine Optimization</h2>
+                            <p>
                                 Welcome to our web development service, where we specialize
                                 in empowering small businesses with stunning, custom-built websites.
+                            </p>
+                            <h2>Grow your business through an online presence</h2>
+                            <p>
                                 In today's digital age, having a strong online presence is crucial for
                                 growth and success. However, many small businesses struggle to
                                 establish a professional, effective website due to limited resources
-                                and technical expertise. That's where we come in.
-                                At our core, we believe in affordable pricing, high-quality work,
-                                and exceptional customer service. We take pride in our ability to
+                                and technical expertise.
+                            </p>
+                            <h2>We deliver a website to go above and beyond your expectations</h2>
+                            <p>
+                                We take pride in our ability to
                                 deliver tailored solutions that not only meet but exceed your
-                                expectations. Whether you’re a startup looking to make your mark or
-                                an established business aiming to expand your online presence, our
-                                team is here to help you succeed. Contact us today for a free quote
-                                and take the first step toward transforming your business with a
-                                professional website.
+                                expectations.
                             </p>
                         </div>
                     </div>
@@ -43,6 +47,7 @@ function Home() {
                     </div>
                 </div>
             </main>
+            <Footer></Footer>
         </>
     );
 }
