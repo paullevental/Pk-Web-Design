@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.pricing-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "KulimPark-Regular";
+}
+
+.pricing-container-wrapper {
+    max-width: 80%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pricing-wrapper-inner {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    margin: auto;
+}
+
+.price-card {
+    width: 45%;
+    margin: 15px;
+    padding-top: 10px;
+    padding: 15px;
+    border: 1px solid var(--navyblue);
+    background-color: var(--purple);
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: var(--purple) 0px 2px 10px -1px;
+}
+
+.price-card p,
+.price-card h2 {
+    text-align: center;
+}
+
+.plan-btn {
+    background-color: var(--navyblue);
+    border: 1px solid var(--navy);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    fill: #000;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.basic-plan,
+.standard-plan {
+    list-style-type: circle;
+}
+
+.plan-btn:hover {
+    background-color: #2f425a;
+    border-color: #2f425a;
+    fill: #06f;
+}
+
+.plan-btn:active {
+    background-color: #2f425a;
+    border-color: #2f425a;
+    fill: #06f;
+}
+
+
+@media screen and (min-width: 1500px) {
+    .pricing-container {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .pricing-wrapper-inner {
+        display: inline;
+    }
+
+    .pricing-container-wrapper  {
+        height: 100%;
+    }
+
+    .price-card {
+        margin: 5px;
+    }
+
+    .price-card{
+        width: 100%;
+        height: 460px;
+    }
+
+}

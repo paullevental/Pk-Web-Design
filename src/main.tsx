@@ -7,6 +7,8 @@ import './css/Footer.css'
 import './css/home.css'
 import './css/colors.css'
 import './css/Fonts.css'
+import './css/about.css'
+import './css/pricing.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
