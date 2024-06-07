@@ -27,7 +27,7 @@ function Home() {
                                 Welcome to our web development service, where we specialize
                                 in empowering small businesses with stunning, custom-built websites.
                             </p>
-                            <h2>Grow your business through an online presence</h2>
+                            <h2>Grow your business through an online-presence</h2>
                             <p>
                                 In today's digital age, having a strong online presence is crucial for
                                 growth and success. However, many small businesses struggle to

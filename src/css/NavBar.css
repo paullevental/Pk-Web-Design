@@ -11,6 +11,8 @@
 .nav-container {
   display: flex;
   justify-content: center;
+  box-shadow: 0 3px 9px -4px var(--gray);
+  background-color: #3f5979;
 }
 
 .nav #logo {

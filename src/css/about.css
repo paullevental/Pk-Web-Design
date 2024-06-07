@@ -3,4 +3,21 @@ body {
     width: 100%;
     margin: 0 auto;
     /* Add this line */
+    height: 100%;
+}
+
+.about-container {
+    height: 100vh;
+}
+
+.about-main{
+    max-width: 80%;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+
+.about-main-wrapper {
+    text-align: center;
 }
