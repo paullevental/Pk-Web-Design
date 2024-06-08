@@ -30,7 +30,7 @@ function Home() {
                             <h2>Grow your business through an online-presence</h2>
                             <p>
                                 In today's digital age, having a strong online presence is crucial for
-                                growth and success. However, many small businesses struggle to
+                                growth and success. Many small businesses and startups struggle to
                                 establish a professional, effective website due to limited resources
                                 and technical expertise.
                             </p>
