@@ -24,7 +24,7 @@ function Home() {
                         <div className="nested-inner-home-main-left">
                             <h2>Custom website design and Search Engine Optimization</h2>
                             <p>
-                                Welcome to our web development service, where we specialize
+                                Welcome to our website development service, where we specialize
                                 in empowering small businesses with stunning, custom-built websites.
                             </p>
                             <h2>Grow your business through an online-presence</h2>
