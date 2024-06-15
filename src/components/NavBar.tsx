@@ -1,31 +1,53 @@
-import Logo from "./Logo";
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
-//<a className="nav-link" href="#">Contact Us</a>
-
-function NavBar() {
+const NavBar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    function toggleMobileMenu() {
+    const toggleMobileMenu = () => {
         setIsOpen(!isOpen);
     };
+
+    useEffect(() => {
+        const nav = document.querySelector(".nav-container");
+
+        const handleScroll = () => {
+            if (nav) {
+                if (window.scrollY > 0) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Call the function initially to set the correct class based on the initial scroll position
+        handleScroll();
+
+        // Cleanup event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []); 
 
     return (
         <div className="nav-container">
             <ul className="nav nav-underline">
                 <li> <Logo /> </li>
                 <li className="nav-item">
-                    <Link to="/" className="nav-link"> Home </Link>
+                    <Link to="/" className="nav-link"> home </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/About" className="nav-link"> About </Link>
+                    <Link to="/About" className="nav-link"> about </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/Pricing" className="nav-link"> Pricing </Link>
+                    <Link to="/Pricing" className="nav-link"> pricing </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/Contact" className="nav-link"> Contact Us </Link>
+                    <Link to="/Contact" className="nav-link"> contact </Link>
                 </li>
             </ul>
             <div id="mobile-navbar" className={isOpen ? 'open' : ''} onClick={toggleMobileMenu}>

@@ -1,12 +1,13 @@
 .footer-container {
-    max-width: 97%;
+    max-width: 100%;
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin: auto;
+    background-color: black;
 }
 
 .nav-footer {
-    color: var(--whitegray);
+    color:white;
     text-decoration: none;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .text-center {
-    color: var(--whitegray);
+    color: white;
     font-family: var(--Poppins);
 
 }

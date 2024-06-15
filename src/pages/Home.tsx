@@ -3,52 +3,57 @@ import Footer from "../components/Footer";
 
 
 function Home() {
+
+    const scrollToMiddle = () => {
+        const middleElement = document.getElementById('middle');
+        if (middleElement) {
+          middleElement.scrollIntoView();
+        }
+      };
+
     return (
-        <>
-            <div className="home-container">
-                <div className="inner-home-container">
-                    <div className="home-left">
-                        <h1 className="web-title">Designed for You</h1>
-                        <span className="blur-effect"></span>
-                        <h2 className="web-title-explanation">Professional Website, Half the Cost.</h2>
-                    </div>
-                    <div className="home-right">
-                        <img src="src\assets\homePageImg.png" alt="" id="home-page-img" />
-                    </div>
-                </div>
+      <>
+        <div className="home-container">
+          <div className="inner-home-container">
+            <div className="home-left">
+              <h1 className="web-title">Your Business, Online.</h1>
+              <button type="button" onClick={scrollToMiddle} className="plan-btn2" >
+                Learn More
+              </button>
             </div>
-            <main className="home-main">
-                <h1 className="web-title-explanation"></h1>
-                <div className="inner-home-main">
-                    <div className="inner-home-main-left">
-                        <div className="nested-inner-home-main-left">
-                            <h2>Custom website design and Search Engine Optimization</h2>
-                            <p>
-                                Welcome to our website development service, where we specialize
-                                in empowering small businesses with stunning, custom-built websites.
-                            </p>
-                            <h2>Grow your business through an online-presence</h2>
-                            <p>
-                                In today's digital age, having a strong online presence is crucial for
-                                growth and success. Many small businesses and startups struggle to
-                                establish a professional, effective website due to limited resources
-                                and technical expertise.
-                            </p>
-                            <h2>We deliver a website to go above and beyond your expectations</h2>
-                            <p>
-                                We take pride in our ability to
-                                deliver tailored solutions that not only meet but exceed your
-                                expectations.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="inner-home-main-right">
-                        <img src="src\assets\Static website-pana.png" alt="" id="website-img" />
-                    </div>
-                </div>
-            </main>
-            <Footer></Footer>
-        </>
+            <div className="home-right"></div>
+          </div>
+        </div >
+        <main className="home-main" id='middle'>
+          <div className="inner-home-main">
+            <div className="inner-home-main-left">
+              <div className="nested-inner-home-main-left">
+                <h2>Transform Your Online Presence</h2>
+              </div>
+            </div>
+            <div className="inner-home-main-right">
+              <img src="src\assets\Placeholder1.png" alt="" id="website-img" />
+            </div>
+          </div>
+        </main>
+        <main className="home-main2">
+          <div className="inner-home-main2">
+            <div className="inner-home-main-right2">
+              <img
+                src="src\assets\SEO.png"
+                alt=""
+                id="website-img2"
+              />
+            </div>
+            <div className="inner-home-main-left2">
+              <div className="nested-inner-home-main-left2">
+                <h2>Expert SEO & Web Design</h2>
+              </div>
+            </div>
+          </div>
+        </main>
+        <Footer></Footer>
+      </>
     );
 }
 

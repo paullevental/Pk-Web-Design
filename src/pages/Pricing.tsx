@@ -7,36 +7,38 @@ function Pricing() {
                 <div className="pricing-container-wrapper">
                     <div className="pricing-wrapper-inner">
                         <div className="price-card">
-                            <h2>$ 500</h2>
-                            <p>Functional 6 page informative website with SEO</p>
+                            <h2>Basic | $ 500</h2>
+                            <p>Up to 6 custom pages</p>
                             <ul className="basic-plan">
-                                <li>Responsive, Animated</li>
-                                <li>Up to 6 pages</li>
-                                <li>Hosting Setup</li>
-                                <li>Search Engine optimizaton</li>
-                                <li>Speed optimization</li>
-                                <li>Content Upload</li>
-                                <li>Contact Form Integration</li>
-                                <li>Optimized Security</li>
-                                <li>Social media links</li>
+                                <li className="available">Responsive, Animated</li>
+                                <li className="available">Up to 6 pages</li>
+                                <li className="available">Hosting Setup</li>
+                                <li className="available">Speed optimization</li>
+                                <li className="available">Content Upload</li>
+                                <li className="available">Contact Form Integration</li>
+                                <li className="available">Optimized Security</li>
+                                <li className="available">Social media links</li>
+                                <li className="unavailable">Payment Processing</li>
+                                <li className="unavailable">Search Engine optimizaton</li>
+                                <li className="unavailable">Free lifetime support</li>
                             </ul>
                             <button className="plan-btn">Contact For Info</button>
                         </div>
                         <div className="price-card">
-                            <h2>$ 750</h2>
-                            <p>Custom designed website, up to 9 pages, fit to your desires </p>
+                            <h2>Pro | $ 750</h2>
+                            <p>Up to 9 pages with SEO</p>
                             <ul className="standard-plan">
-                                <li>Responsive, Animated</li>
-                                <li>Up to 9 pages</li>
-                                <li>Hosting Setup</li>
-                                <li>Search Engine optimizaton</li>
-                                <li>Speed optimization</li>
-                                <li>Free lifetime support</li>
-                                <li>Content Upload</li>
-                                <li>Payment Processing</li>
-                                <li>Contact Form Integration</li>
-                                <li>Optimized Security</li>
-                                <li>Social media links</li>
+                                <li className="available">Responsive, Animated</li>
+                                <li className="available">Up to 9 pages</li>
+                                <li className="available">Hosting Setup</li>
+                                <li className="available">Speed optimization</li>
+                                <li className="available">Content Upload</li>
+                                <li className="available">Contact Form Integration</li>
+                                <li className="available">Optimized Security</li>
+                                <li className="available">Social media links</li>
+                                <li className="available">Payment Processing</li>
+                                <li className="available">Search Engine optimizaton</li>
+                                <li className="available">Free lifetime support</li>
                             </ul>
                             <button className="plan-btn">Contact For Info</button>
                         </div>

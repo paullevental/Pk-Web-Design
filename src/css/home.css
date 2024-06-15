@@ -1,8 +1,22 @@
 body {
     /* background-color: #3D5D95; */
-    background: var(--navyblue);
+    background: #D8B4AE;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     padding: 0;
     margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @keyframes fade {
@@ -21,15 +35,18 @@ body {
     max-width: 60%;
     width: 100%;
     margin: auto;
-    padding: 9rem 2rem 0rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .web-title {
     color: var(--whitegray);
-    margin: 50px 0px 0px 0px;
+    margin: 0 0px 0px 0px;
+    height: 50%;
     font-size: 8rem;
-    font-family: 'KulimPark-SemiBold';
+    font-family: 'Poppins-Medium';
 }
 
 .web-title-explanation {
@@ -47,12 +64,20 @@ body {
 
 .home-main {
     width: 100%;
-    background-color: rgb(69, 105, 146);
+    background-color: #E6E3E0;
+    backdrop-filter: blur(100px);
     color: var(--whitegray);
-    padding: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     text-align: center;
     margin: auto;
+    animation: fade ease-in-out both;
+    animation-timeline: view();
+    animation-range: 0% 42%;
 }
+
 
 .inner-home-container {
     display: flex;
@@ -67,6 +92,7 @@ body {
 
 .inner-home-main {
     display: flex;
+    color: black;
     justify-content: center;
     animation: fade ease-in-out both;
     animation-timeline: view();
@@ -74,24 +100,26 @@ body {
 }
 
 .inner-home-main-right {
-    font-family: 'KulimPark-SemiBold';
+    font-family: 'Poppins-Medium';
     text-align: right;
 }
 
 .inner-home-main-left {
     display: flex;
     align-items: center;
+    
 }
 
 .inner-home-main p {
     font-size: 1.2rem;
-    font-family: 'KulimPark-Regular';
+    font-family: 'Poppins-Medium';
     max-width: 90%;
     margin-right: auto;
 }
 
 .inner-home-main-right h2 {
     font-size: 2.1rem;
+    text-align: left;
     margin-bottom: 35px;
 }
 
@@ -101,16 +129,20 @@ body {
 
 .nested-inner-home-main-left h2 {
     margin-bottom: 30px;
-    font-family: 'KulimPark-Bold';
+    font-size: 5rem;
+    font-family: 'Poppins-Light';
+    opacity: 100%; 
 }
 
 .nested-inner-home-main-left p {
-    font-family: 'KulimPark-Regular';
+    font-family: 'Poppins-Light';
+    opacity: 100%;
 }
 
 #website-img {
-    width: 450px;
-    height: 450px;
+    width: 75%;
+    height: 100%;
+    opacity: 100%;
 }
 
 /* Responsive Media CSS */
@@ -200,8 +232,8 @@ body {
         font-size: 2rem;
     }
 
-    .web-title-explanation {
-        font-size: 1rem;
+    .myButton {
+        color: #66ccff;
     }
 
     #home-page-img {
@@ -213,3 +245,116 @@ body {
         padding-top: 0;
     }
 }
+
+/* Second Content Block */
+
+.home-main2 {
+    width: 100%;
+    background-color: #a3b8c0;
+    backdrop-filter: blur(100px);
+    color: var(--whitegray);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+.inner-home-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-page-img2 {
+    width: 350px;
+    height: 350px;
+}
+
+.inner-home-main2 {
+    display: flex;
+    color: black;
+    justify-content: center;
+    animation: fade ease-in-out both;
+}
+
+.inner-home-main-right2 {
+    font-family: 'Poppins-Medium';
+    text-align: left;
+}
+
+.inner-home-main-left2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.inner-home-main2 p {
+    font-size: 1.2rem;
+    font-family: 'Poppins-Medium';
+    max-width: 90%;
+
+}
+
+.inner-home-main-right2 h2 {
+    font-size: 2.1rem;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.nested-inner-home-main-left2 {
+    text-align: right;
+}
+
+.nested-inner-home-main-left2 h2 {
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-family: 'Poppins-Light';
+    opacity: 100%; 
+}
+
+.nested-inner-home-main-left2 p {
+    font-family: 'Poppins-Light';
+    opacity: 100%;
+}
+
+#website-img2 {
+    width: 65%;
+    height: 100%;
+    opacity: 100%;
+}
+
+.plan-btn2 {
+    background-color: black;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    fill: #000;
+    font-size: 500;
+    height: 60px;
+    justify-content: center;
+    line-height: 24px;
+    min-width: 300px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 30px;
+    border-style: none;
+}
+
+
+.plan-btn2:hover {
+    background-color: white;
+    color: black;
+    border-color: #000000;
+    fill: #06f;
+}
+
