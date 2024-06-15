@@ -24,7 +24,7 @@ function Home() {
             <div className="home-right"></div>
           </div>
         </div >
-        <main className="home-main" id='middle'>
+        <main className="home-main">
           <div className="inner-home-main">
             <div className="inner-home-main-left">
               <div className="nested-inner-home-main-left">
