@@ -1,10 +1,8 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
-
-
-
 
 /* Overriding bootstrap colors */
 
@@ -14,25 +12,23 @@ body, html {
   align-items: center;
 }
 
-
-
 /* */
 
-.nav-container {
-  display: flex;
-  z-index: 9999;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  transition: background-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  
+#mobile-navbar {
+  display: none;
+  cursor: pointer;
 }
 
-.nav-container.scrolled {
-  background-color: rgb(0, 0, 0) !important;
-  backdrop-filter: blur(50px);
-  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);;
+#mobile-navbar div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.nav-container {
+
 }
 
 .nav #logo {
@@ -62,18 +58,21 @@ body, html {
   color: white;
 }
 
-#mobile-navbar {
-  margin-top: 25px;
-  display: none;
-  cursor: pointer;
+.nav-container {
+  display: flex;
+  z-index: 9999;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: background-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  height: 12%;
 }
 
-#mobile-navbar div {
-  width: 35px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
+.nav-container.scrolled {
+  background-color: rgb(0, 0, 0) !important;
+  backdrop-filter: blur(50px);
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .open .bar1 {
@@ -108,7 +107,7 @@ body, html {
   border: none;
 }
 
-.mobile-navbar-item a:hover{
+.mobile-navbar-item a:hover {
   font-size: 1.6rem;
   font-size-adjust: 28px;
 }
@@ -117,9 +116,7 @@ body, html {
   transition: ease-in-out 0.3s;
 }
 
-
 @media only screen and (max-width: 630px) {
-
   .nav-container .nav {
     display: none;
   }
@@ -128,18 +125,16 @@ body, html {
     display: block;
     max-width: 90%;
     width: 100%;
-    height: 60px;
+    height: 25%;
   }
 
   .nav-container {
-    display: block;
-    background-color: #3f5979;
-    display: flex;
-    align-items: center;
+    background-color: var(--pink);
+    height: 25%;  
   }
 
   .open .mobile-menu {
     padding-left: 0;
-  } 
+  }
 
 }

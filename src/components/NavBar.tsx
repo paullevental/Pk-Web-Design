@@ -24,7 +24,6 @@ const NavBar: React.FC = () => {
 
         window.addEventListener('scroll', handleScroll);
 
-        // Call the function initially to set the correct class based on the initial scroll position
         handleScroll();
 
         // Cleanup event listener on component unmount
