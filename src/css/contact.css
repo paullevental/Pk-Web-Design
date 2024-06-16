@@ -1,0 +1,32 @@
+.contact-container {
+    max-width: 60%;
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins-Medium';
+}
+
+.contact-inner {
+    width: 100%;
+}
+
+.contact-inner form {
+    background-color: var(--darkerpink);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: var(--pink);
+    border: none;
+}
+
+.form-group {
+    margin: 15px 0px 15px 0px;
+}
+
+.btn-primary:hover {
+    background-color: #cc988f;
+}

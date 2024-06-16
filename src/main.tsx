@@ -9,6 +9,7 @@ import './css/colors.css'
 import './css/Fonts.css'
 import './css/about.css'
 import './css/pricing.css'
+import './css/contact.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
