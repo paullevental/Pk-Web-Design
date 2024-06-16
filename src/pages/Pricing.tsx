@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 
 function Pricing() {
     return (
@@ -45,7 +44,6 @@ function Pricing() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

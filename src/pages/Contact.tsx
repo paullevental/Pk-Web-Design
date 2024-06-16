@@ -1,28 +1,31 @@
+
 function Contact() {
+
     return (
         <>
             <div className="contact-container">
                 <div className="contact-inner">
                     <form>
                         <div className="form-group">
-                            <label>Email address</label>
-                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label>Name</label>
+                            <input type="email" className="input-form-name" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter name:" />
                         </div>
                         <div className="form-group">
-                            <label>Password</label>
-                            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                            <label>Email address</label>
+                            <input type="email" className="input-form-email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email:" />
                         </div>
-                        <div className="form-group form-check">
-                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                            <label className="form-check-label">Check me out</label>
+                        <div className="form-group">
+                            <label>Message</label>
+                            <textarea className="input-form-message" id="exampleInputMessage" placeholder="Message:" />
                         </div>
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="contact-button">Submit</button>
                     </form>
                 </div>
             </div>
         </>
+
     );
+
 }
 
 export default Contact

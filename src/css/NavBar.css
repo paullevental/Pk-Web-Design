@@ -113,6 +113,40 @@ html {
   transition: ease-in-out 0.3s;
 }
 
+
+@media only screen and (max-width: 1250px) and (min-height: 950px) {
+
+  .nav-container .nav {
+    display: none;
+  }
+
+  .nav-container {
+    background-color: var(--mobilenavpink);
+  }
+
+  #mobile-navbar {
+    display: block;
+    max-width: 90%;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .open .mobile-menu {
+    padding-left: 0;
+  }
+
+  ul.mobile-menu.open {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav #logo {
+    display: block;
+  }
+
+
+}
+
 @media only screen and (max-width: 630px) {
   .nav-container .nav {
     display: none;
@@ -138,8 +172,9 @@ html {
     margin: 0;
   }
 
-  .nav #logo{
+  .nav #logo {
     display: block;
   }
 
 }
+

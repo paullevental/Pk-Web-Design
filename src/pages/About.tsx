@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 
 function About() {
     return (
@@ -10,7 +9,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
