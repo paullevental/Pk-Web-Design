@@ -11,6 +11,7 @@ import './css/about.css'
 import './css/pricing.css'
 import './css/contact.css'
 import './css/animations.css'
+import './css/cubAnimation.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -100,6 +100,12 @@
     color: black;
 }
 
+@media screen and (min-width: 1550px) {
+    .pricing-container {
+        height: 82vh;
+    }
+}
+
 
 @media screen and (max-width: 1250px) {
 

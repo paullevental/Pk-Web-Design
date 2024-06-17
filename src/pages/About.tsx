@@ -1,21 +1,9 @@
+import Footer from "../components/Footer";
+
 function About() {
     return (
         <>
             <div className="about-container">
-                <div className="area" >
-                    <ul className="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div >
                 <div className="about-container-wrapper">
                     <h1>Our Service</h1>
                 </div>
