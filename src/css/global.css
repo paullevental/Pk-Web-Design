@@ -58,9 +58,7 @@ html {
   --lightgray: #8d99ae;
   --whitegray: #edf2f4;
   --navyblue: #3a506b;
-  --navy: #1c2541;
   --darknavy: #0b132b;
-  --darkblue: #0a1128;
   --gray: #2a2d34;
   --lightblue: #62b6cb;
   --AliceBlue: #f4faff;
@@ -70,5 +68,13 @@ html {
   --DavysGray: #535657;
   --pink: #D8B4AE;
   --darkerpink: #d89e94;
+  --lightblue: #93a7aa;
+  --darkerblue: #728992;
+  --blue: #6e8692;
+  --dustyrosepink: #C9A9A6;
+  --redpink: #A97982;
 }
+
+  /* --green: #6a7565;
+  --artichokegreen: #888d7a; */
 
