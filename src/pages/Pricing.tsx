@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Pricing() {
     return (
@@ -21,7 +22,7 @@ function Pricing() {
                                 <li className="unavailable">Search Engine optimizaton</li>
                                 <li className="unavailable">Free lifetime support</li>
                             </ul>
-                            <button className="plan-btn">Contact For Info</button>
+                            <Link to="/contact"><button className="plan-btn">Contact For Info</button></Link>
                         </div>
                         <div className="price-card">
                             <h2>Pro | $ 750</h2>
@@ -39,7 +40,7 @@ function Pricing() {
                                 <li className="available">Search Engine optimizaton</li>
                                 <li className="available">Free lifetime support</li>
                             </ul>
-                            <button className="plan-btn">Contact For Info</button>
+                            <Link to="/contact"><button className="plan-btn">Contact For Info</button></Link>
                         </div>
                     </div>
                 </div>
