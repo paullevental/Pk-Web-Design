@@ -111,7 +111,7 @@
 /* Circle animation end */
 
 .about-main {
-    background: var(--lightblue);
+    background: var(--dustyrosepink);
 }
 
 
@@ -159,7 +159,7 @@
 }
 
 .about-team-container {
-    background: var(--darkerblue);
+    background: var(--dustyrosepink);
 }
 
 .about-team {
@@ -176,7 +176,7 @@
     width: 30%;
     border-radius: 10px;
     padding: 20px;
-    background: var(--blue);
+    background: var(--purple);
 }
 
 .developer-card:nth-of-type(1) {
