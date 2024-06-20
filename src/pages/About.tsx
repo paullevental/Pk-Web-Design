@@ -20,8 +20,7 @@ function About() {
                             in feugiat neque ultricies a. Vivamus pellentesque risus ut libero elementum, eu
                             dictum nisi rutrum. Donec sagittis elit sapien, et efficitur arcu malesuada vitae.
                             Donec cursus accumsan nunc nec fringilla. Aenean id nunc vel magna pellentesque tristique.
-                            Vivamus gravida ex non neque pharetra luctus. Suspendisse potenti. Aenean lobortis lobortis
-                            nisl suscipit accumsan.</p>
+                            Vivamus gravida ex non neque pharetra luctus. Suspendisse potenti. Aenean lobortis lobortis.</p>
                     </div>
                 </div>
             </main>
