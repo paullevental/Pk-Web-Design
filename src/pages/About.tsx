@@ -1,11 +1,24 @@
 // import Footer from "../components/Footer";
 
 function About() {
+
+    const scrollToMiddle = () => {
+        const middleElement = document.getElementById('grandeClinicImg_1');
+        if (middleElement) {
+            middleElement.scrollIntoView();
+        }
+    };
+
     return (
         <>
             <div className="about-container">
                 <div className="about-container-wrapper">
                     <h1>Our Service</h1>
+                    <div className="about-button-wrapper">
+                        <button type="button" onClick={scrollToMiddle} className="plan-btn2" >
+                            Learn More
+                        </button>
+                    </div>
                 </div>
             </div>
             <main className="about-main">
@@ -13,19 +26,10 @@ function About() {
                     <a href="https://grandemed.ca/">
                         <img src="src\assets\SquareClinic.png" id="grandeClinicImg_1" />
                     </a>
-
-                    <div className="description">
-                        <h1>Grande Med Clinic</h1>
-                        <p>In nisl orci, viverra ut tincidunt quis, varius eget ex. Quisque congue luctus nisi,
-                            in feugiat neque ultricies a. Vivamus pellentesque risus ut libero elementum, eu
-                            dictum nisi rutrum. Donec sagittis elit sapien, et efficitur arcu malesuada vitae.
-                            Donec cursus accumsan nunc nec fringilla. Aenean id nunc vel magna pellentesque tristique.
-                            Vivamus gravida ex non neque pharetra luctus. Suspendisse potenti. Aenean lobortis lobortis
-                            nisl suscipit accumsan.</p>
-                    </div>
+                    <h1 className="description">Grande Med Clinic</h1>
                 </div>
             </main>
-            <div className="about-team-container">
+            {/* <div className="about-team-container">
                 <div className="about-team">
                     <div className="developer-card">
                         <div className="developer-card-img-div">
@@ -52,8 +56,8 @@ function About() {
                         </p>
 
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div> */}
         </>
     );
 }

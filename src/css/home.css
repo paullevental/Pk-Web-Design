@@ -5,7 +5,7 @@
     width: 100%;
     margin: auto;
     padding: 0rem 2rem 0rem 2rem;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
 }
@@ -31,7 +31,7 @@
 .blur-effect {
     box-shadow: 0 0 145px 70px #66ccff;
     position: absolute;
-    z-index: -100;
+    z-index: -1;
     margin-bottom: 100px;
     top: 350px;
 }
@@ -139,6 +139,7 @@
     touch-action: manipulation;
     margin-top: 30px;
     border-style: none;
+    z-index: 100;
 }
 
 

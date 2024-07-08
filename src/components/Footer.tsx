@@ -18,7 +18,7 @@ function Footer() {
                         <Link to="/Contact" className="nav-footer px-2"> Contact Us </Link>
                     </li>
                 </ul>
-                <p className="text-center">&copy; 2024 Company | pk Web Design</p>
+                <p className="text-center">&copy; 2024 pk Web Design</p>
             </footer>
         </div>
     );
