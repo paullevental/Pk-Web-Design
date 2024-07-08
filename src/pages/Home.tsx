@@ -1,7 +1,7 @@
 function Home() {
 
   const scrollToMiddle = () => {
-    const middleElement = document.getElementById('middle');
+    const middleElement = document.getElementById('homeWebPageImg');
     if (middleElement) {
       middleElement.scrollIntoView();
     }

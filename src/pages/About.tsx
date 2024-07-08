@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 function About() {
     return (
@@ -11,17 +11,11 @@ function About() {
             <main className="about-main">
                 <div className="about-main-inner">
                     <a href="https://grandemed.ca/">
-                        <img src="src\assets\grandeClinicImg1.png" id="grandeClinicImg_1" />
+                        <img src="src\assets\SquareClinic.png" id="grandeClinicImg_1" />
                     </a>
 
                     <div className="description">
                         <h1>Grande Med Clinic</h1>
-                        <p>In nisl orci, viverra ut tincidunt quis, varius eget ex. Quisque congue luctus nisi,
-                            in feugiat neque ultricies a. Vivamus pellentesque risus ut libero elementum, eu
-                            dictum nisi rutrum. Donec sagittis elit sapien, et efficitur arcu malesuada vitae.
-                            Donec cursus accumsan nunc nec fringilla. Aenean id nunc vel magna pellentesque tristique.
-                            Vivamus gravida ex non neque pharetra luctus. Suspendisse potenti. Aenean lobortis lobortis
-                            nisl suscipit accumsan.</p>
                     </div>
                 </div>
             </main>

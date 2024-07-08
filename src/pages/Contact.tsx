@@ -1,12 +1,12 @@
 import { FormEvent } from 'react';
-import emailjs from '@emailjs/browser';
+/* import emailjs from '@emailjs/browser'; */
 
 function Contact() {
 
     const sendEmail = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_if', 'template_id', e.target as HTMLFormElement, 'public_key');
+        //emailjs.sendForm('service_if', 'template_id', e.target as HTMLFormElement, 'public_key');
     }
 
     return (

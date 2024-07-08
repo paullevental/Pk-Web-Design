@@ -17,14 +17,14 @@
 }
 
 .web-title {
-    color: var(--whitegray);
+    color: white;
     margin: 0;
     font-size: 8rem;
     font-family: 'Poppins-Medium';
 }
 
 .web-title-explanation {
-    color: var(--whitegray);
+    color: white;
     margin-top: 15px;
 }
 
@@ -38,7 +38,7 @@
 
 .home-main {
     width: 100%;
-    color: var(--whitegray);
+    color: white;
     padding: 35px 100px 35px 100px;
     margin: auto;
 }
@@ -71,8 +71,7 @@
 }
 
 
-#home-main-web-page-section,
-#home-main-computer-section {
+#home-main-web-page-section {
     animation: fade ease-in-out both;
     animation-timeline: view();
     animation-range: 0% 42%;

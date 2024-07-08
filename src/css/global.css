@@ -38,7 +38,8 @@ q:before, q:after {
 
 body,
 html {
-  color: var(--whitegray);
+  font-family: 'Poppins-Medium';
+  color: white;
   background: var(--pink);
   width: 100%;
   height: 100%;
@@ -66,7 +67,7 @@ html {
   --Thistle: #B7ADCF;
   --PaynesGray: #4F646F;
   --DavysGray: #535657;
-  --pink: #D8B4AE;
+  --pink: #fc9886;
   --darkerpink: #d89e94;
   --lightblue: #93a7aa;
   --darkerblue: #728992;

@@ -9,21 +9,19 @@
 }
 
 
-.about-main {
-    background: var(--dustyrosepink);
-}
+
 
 
 .about-main-inner {
-    width: 82%;
+    width: 100%;
     height: 100%;
     padding: 40px 25px 40px 25px;
-    width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: fade ease-in-out both;
+    background-color: #E6E3E0;
     animation-timeline: view();
     animation-range: 0% 35%;
 }
@@ -33,13 +31,21 @@
     animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    font-family: 'Poppins-Medium';
 }
 
 #grandeClinicImg_1 {
-    width: 100%;
-    -webkit-box-shadow: 0px -1px 30px -9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px -1px 30px -9px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px -1px 30px -12px rgba(0, 0, 0, 0.75);
+    width: 80vh;
+    border: 18px solid;
+    border-color: #A6A19Fff;
+    transition: all 0.1s ease;
+}
+
+#grandeClinicImg_1:hover {
+    width: 80vh;
+    border: 18px solid;
+    border-color: #A6A19Fff;
+    filter: brightness(90%);
 }
 
 .about-main a {
@@ -51,14 +57,20 @@
     overflow: auto;
     padding-left: 40px;
     margin: 0;
+    color: black;
 }
 
 .description h1 {
-    font-size: 2.7rem;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-family: 'Poppins-Light';
+    opacity: 100%;
+    padding-right: 13vh;
+    text-align: right;
 }
 
 .about-team-container {
-    background: var(--dustyrosepink);
+    background: #a3b8c0;
 }
 
 .about-team {
